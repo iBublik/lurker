@@ -55,6 +55,8 @@ module Lurker
   class UndocumentedResponseCode < ValidationError; end
 end
 
+require 'active_support/core_ext/object'
+
 require 'lurker/jaml_descriptor'
 require 'lurker/ref_object'
 require 'lurker/erb_schema_context'
